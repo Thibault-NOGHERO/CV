@@ -1,17 +1,22 @@
 const switch_button = document.getElementById("bouton_burger");
 const menu = document.getElementById("menu_invisible");
 
-function menu_switch(){
-    if (menu.style.display === "none"){
-        menu.style.display = "block";
+
+function aanimation(){
+    if (menu.classList.contains("open")){
+        menu.classList.remove("open");
+        menu.style.display = "none";
     }else{
-        menu.style.display = "none"
+        menu.classList.add("open");
+        menu.style.display = "block";
     }
 }
-
-switch_button.addEventListener("click", menu_switch);
-
+// switch_button.addEventListener("click", aanimation);
 
 
+// ZONE DE TEST
 
-
+function apparition(){
+    menu.classList.toggle('show');
+}
+switch_button.addEventListener("click", apparition);

@@ -24,16 +24,32 @@ body{
     align-items: center;
 }
 
-/* MENU CHANGEMENT */
-#menu_invisible{
-    display: none;
-    position: absolute;
-}
-.plus_menu_burger{
-    position: relative;
-}
 /* TAILLE */
 .header_size{
     height: 150px;
+} 
+
+/* MENU CHANGEMENT */
+.menu_invisible{
+    position: absolute;
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all 0.5s ease-in-out;
+}
+.menu_invisible.show{
+    opacity: 1;
+    transform: translateX(0);
 }
 
+/* MENU PLUS */
+.plus_menu_style{
+    list-style: none;
+}
+
+
+/* ZONE DE TEST */
+
+.header_fixe{
+    top: 100px;
+    position: sticky;
+}

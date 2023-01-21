@@ -46,10 +46,17 @@ body{
     list-style: none;
 }
 
+/* H1/H2... */
+.header_fixe{
+    top: 0px;
+    position: sticky;
+}
 
 /* ZONE DE TEST */
 
-.header_fixe{
-    top: 100px;
-    position: sticky;
+
+
+.bio_texte_size{
+    font-size: 2em;
+    text-align: center;
 }

@@ -8,7 +8,8 @@
 body{
     width: 100vw;
     height: 1500px;
-    background: linear-gradient(#e66465, #9198e5);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background: linear-gradient(#78a7ff, #ff8800d0);
 }
 
 /* HEADER */
@@ -26,8 +27,11 @@ body{
 /* MENU CHANGEMENT */
 #menu_invisible{
     display: none;
+    position: absolute;
 }
-
+.plus_menu_burger{
+    position: relative;
+}
 /* TAILLE */
 .header_size{
     height: 150px;

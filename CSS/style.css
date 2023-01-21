@@ -1,0 +1,35 @@
+/* ALL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    width: 100vw;
+    height: 1500px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+/* HEADER */
+
+/* MENU */
+.header_ul{
+    list-style: none;
+}
+.header_display_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* MENU CHANGEMENT */
+#menu_invisible{
+    display: none;
+}
+
+/* TAILLE */
+.header_size{
+    height: 150px;
+}
+
